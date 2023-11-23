@@ -1,0 +1,7 @@
+# 忽略Lectures目录
+/Lectures/*
+/Bootcamp/*
+/Recitation/*
+/CS341/*
+
+.DS_Store
