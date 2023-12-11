@@ -1,2 +1,2 @@
-FROM gcevans/cs225-container:sp23
+FROM gcevans/cs225-container:fa23
 ENTRYPOINT bash
