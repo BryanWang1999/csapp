@@ -9,7 +9,7 @@ int main()
 
     printf("你输入的文字是：%s\n", str);
 
-    printf("str 的地址是：%p\n", str);
+    printf("str 的地址是：%p\n", str); // 地址常量
     printf("str[0] 的地址是：%p\n", &str[0]);
 
     char a[] = "hello";

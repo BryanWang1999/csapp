@@ -3,9 +3,11 @@
 int main() 
 {
     int array[5] = {1, 2, 3, 4, 5};
-    int *p = array; // p 并非指向一个数组
-    int i ;
+    int *p = array; // p 并非指向一个数组，而是指向一个整型变量
+    
+    printf("%p\n", array); // 指针指向的地址
 
+    int i ;
     for (i = 0; i < 5; i++) {
         printf("%d\n", *(p + i));
     }
